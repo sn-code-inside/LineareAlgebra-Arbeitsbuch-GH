@@ -1,19 +1,19 @@
-Es fehlen noch folgende Python3-Skripte
+Aufgabe             Beschreibung                                        Status   
 
-Aufghabe 2.2		rref()
-[erl.] Aufgabe 2.13		PA=LU-Zerlegung					
+Aufgabe 2.2         rref()                                              fertig  
+Aufgabe 2.13        PA=LU-Zerlegung                                     fertig
 
 
-Aufgabe 2.2.1		Christian Aquarium
-Aufgabe 2.21.1 		SNF eine Polynommatrix
-Aufhabe 5.1.1		Christian Dreieck-Verzerrungen
+Aufgabe 2.2.1       Christian: Aquarium                                 
+Aufgabe 2.21.1      SNF einer Polynommatrix                             
+Aufgabe 5.1.1       Christian: Dreieck-Verzerrungen                     
 
-Aufgabe 6.19.4		SVD einer 4x3-Matrix
+Aufgabe 6.19.4      SVD einer 4x3-Matrix                                
 
-Aufgabe 7.8			JNF, SNF der entspr. char. Matrix
+Aufgabe 7.8         JNF, SNF der entspr. char. Matrix                   
 
-Aufgabe 8.1.1		FOURIER-Reihen
-Aufgabe 8.3.1 		Christian: Mietwagen
-Aufgabe 8.9.2		zweiter Teil LAP
+Aufgabe 8.1.1       FOURIER-Reihen                                      
+Aufgabe 8.3.1       Christian: Markov-Ketten Mietwagen-Problem          
+Aufgabe 8.9.2       SVD, Pseudoinverse, LAP                             fast fertig, LAP ist noch zu ergänzen
 
 
