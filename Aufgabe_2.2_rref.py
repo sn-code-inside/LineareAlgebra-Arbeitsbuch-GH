@@ -122,6 +122,6 @@ print(Z)
 print('\nKontrolle: Z.M_orig=')
 print(np.dot(Z,M_orig))
 
-print('\mNach Elimination des in R verbleibenden Elements in der ersten Zeile und zweiten Spalte zum Vergleich mit Matlab')
+print('\nNach Elimination des in R verbleibenden Elements in der ersten Zeile und zweiten Spalte zum Vergleich mit Matlab')
 print(typI(R,1,0,-R[0,1]))
 
