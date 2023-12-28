@@ -36,7 +36,7 @@ Singulärwertzerlegung stimmt. Dazu müssen wir aus den
 Singulärwerten im Array S zunächst eine 5x3-Matrix machen, deren Diagonale
 die in S gespeicherten Singulärwerte von A enthält. 
 Hierbei gehen wir wie folgt vor: 
-Zuerst erzeigen wir eine 3x3-Diagonalmatrix SDGM mit den Singulärwerten
+Zuerst erzeugen wir eine 3x3-Diagonalmatrix SDGM mit den Singulärwerten
 auf der Hauptdiagonalen. Danach ergänzen wir zwei Nullzeilen, um das
 gleiche Matrixformat (5x3) wie A zu erreichen.
 """
