@@ -12,16 +12,17 @@ U, S, VT = svd(A)
 V = VT.transpose()
 
 np.set_printoptions(formatter={'float':"{0:8.4f}".format})
-print('U=')
+
+print('\nU=')
 print(U)
 
-print('diags of S:')
+print('\nDiagonalkomponenten von S:')
 print(S)
 
-print('V^T=')
+print('\nV^T=')
 print(VT)
 
-print('V=')
+print('\nV=')
 print(V)
 
 # BEM: alternativer Aufruf der Transponierten von V
@@ -39,6 +40,8 @@ Zuerst erzeigen wir eine 3x3-Diagonalmatrix SDGM mit den Singulärwerten
 auf der Hauptdiagonalen. Danach ergänzen wir zwei Nullzeilen, um das
 gleiche Matrixformat (5x3) wie A zu erreichen.
 """
+
+# Erstelle Diagonalmatirx mit den Werten von S
 
 SDGM = np.diag(S)
 
@@ -88,7 +91,7 @@ T = np.hstack([T, nullspalten])
 print('\nT=')
 print(T)
 
-#P=np.dot(np.transpose(VT),T,np.transpose(U))
+# Bilde Produkt V.T.U^T
 
 print()
 
