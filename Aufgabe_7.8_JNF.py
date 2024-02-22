@@ -8,8 +8,8 @@ M = sp.Matrix(A)
 
 S, J = M.jordan_form()
 
-print('\nM=')
-print(M)
+print('\nA=')
+print(A)
 
 print('\nJordansche Normalform, J=')
 print(J)
