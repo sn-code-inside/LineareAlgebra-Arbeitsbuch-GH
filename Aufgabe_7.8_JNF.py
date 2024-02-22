@@ -17,7 +17,7 @@ print(J)
 print('\nTransformationsmatrix, S=')
 print(S)
 
-# Schönere Ausgabe durch matrix2numpy
+print('\nSchönere Ausgabe durch matrix2numpy:')
 
 J = sp.matrix2numpy(J, dtype=int)
 S = sp.matrix2numpy(S,dtype=float)
