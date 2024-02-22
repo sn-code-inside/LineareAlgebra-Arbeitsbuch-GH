@@ -1,7 +1,7 @@
 import numpy as np
 import sympy as sp
 
-A = np.array([[2, -1, 0, 0], [0, 3, 0, 0], [1, 1, 4, 1], [0, 0, -1, 2]])
+A = np.array([[-1, 5, 0, -5], [5, -1, 0, 5], [1, 0, 4, 1], [5, -5, 0, 9]])
 M = sp.Matrix(A)
 
 # Berechne Jordan'sche Normalform 
