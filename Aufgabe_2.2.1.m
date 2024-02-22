@@ -21,3 +21,5 @@ mean(x)
 b=[72, 24, 24, 44, 24, 0,  0, 40, 24, 0, 40, 72, 40]';
 % Berechung der Lösung des LGS:
 x=A\b
+% Mittelwert der berechneten Temperaturwerte:
+mean(x)
