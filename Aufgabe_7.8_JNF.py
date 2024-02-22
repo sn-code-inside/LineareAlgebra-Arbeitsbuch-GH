@@ -4,7 +4,7 @@ import sympy as sp
 A = np.array([[2, -1, 0, 0], [0, 3, 0, 0], [1, 1, 4, 1], [0, 0, -1, 2]])
 M = sp.Matrix(A)
 
-# Berechne Jordan'Sche Normalform 
+# Berechne Jordan'sche Normalform 
 
 S, J = M.jordan_form()
 
