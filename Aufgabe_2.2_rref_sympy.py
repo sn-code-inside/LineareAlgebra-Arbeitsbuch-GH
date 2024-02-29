@@ -19,13 +19,13 @@ R, PC = A.rref()
 
 print('\nA=')
 print(A)
-print('\nschöner mit Sympy to Numpy: A=')
+print('\nSchönere Ausgabe durch matrix2numpy: A=')
 M = sp.matrix2numpy(A, dtype=int)
 print(M)
 
 print('\nR=')
 print(R)
 
-print('\nschöner mit Sympy to Numpy: R=')
+print('\nSchönere Ausgabe durch matrix2numpy: R=')
 M = sp.matrix2numpy(R, dtype=int)
 print(M)
